@@ -66,3 +66,17 @@ function POPOSList() {
   )
 }
 ...
+// src/POPOSList.js
+
+import './POPOSList.css';
+
+...
+
+function POPOSList() {
+  return (
+    <div className="POPOSList"> // <- add the class name here!
+      ...
+  )
+}
+
+...
