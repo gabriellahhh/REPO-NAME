@@ -1,5 +1,16 @@
 // src/App.js
+import POPOSList from './POPOSList';
 
+...
+
+function App() {
+  return (
+    <div className="App">
+      <Title />
+      <POPOSList />
+    </div>
+  );
+}
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
